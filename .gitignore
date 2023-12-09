@@ -30,3 +30,14 @@
 *.exe
 *.out
 *.app
+LogClass/.vs/LogClass/FileContentIndex/7ee6bda5-33f2-4b38-a6ed-17f8bfdedc74.vsidx
+*.vsidx
+LogClass/.vs/LogClass/v17/Browse.VC.db
+*.db-shm
+*.db-wal
+*.opendb
+*.ipch
+*.vcxproj
+*.filters
+*.user
+LogClass/LogClass.sln
