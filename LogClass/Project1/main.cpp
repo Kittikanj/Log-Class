@@ -3,9 +3,12 @@
 class Log
 {
 public:
-	const int LogLevelError = 0;
-	const int LogLevelWarning = 1;
-	const int LogLevelInfo = 2;
+	enum Level
+	{
+		LogLevelError,
+		LogLevelWarning,
+		LogLevelInfo
+	};
 
 private:
 	int m_LogLevel = LogLevelInfo;
@@ -38,7 +41,7 @@ public:
 int main()
 {
 	Log log;
-	log.SetLevel(log.LogLevelError);
+	log.SetLevel(log.LogLevelInfo);
 	log.Warn("Hello!");
 	log.Error("Hello!");
 	log.Info("Hello!");

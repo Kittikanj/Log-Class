@@ -41,3 +41,10 @@ LogClass/.vs/LogClass/v17/Browse.VC.db
 *.filters
 *.user
 LogClass/LogClass.sln
+*.tlog
+*.recipe
+*.log
+*.pdb
+*.ilk
+*.idb
+LogClass/.vs/LogClass/v17/.suo
