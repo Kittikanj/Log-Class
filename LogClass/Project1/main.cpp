@@ -11,10 +11,10 @@ public:
 	};
 
 private:
-	int m_LogLevel = LogLevelInfo;
+	Level m_LogLevel = LogLevelInfo;
 
 public:
-	void SetLevel(int level)
+	void SetLevel(Level level)
 	{
 		m_LogLevel = level;
 	}
